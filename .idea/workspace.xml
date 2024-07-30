@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c69e3ea-c5a9-4eb2-87fe-c1ea2806a277" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringBoot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/Bean/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/anno/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/controller/CodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/interceptors/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/mapper/ProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/pojo/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/pojo/FindPasswordInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/pojo/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/pojo/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/pojo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/ThreadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/VerificationCodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/impl/MailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/impl/ThreadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/service/impl/VerificationCodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/utils/AliOSSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/utils/Md5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/utils/ThreadLocalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/java/com/zixin/validation/StateValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/resources/com/zixin/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/main/resources/com/zixin/mapper/ProjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/src/test/java/com/zixin/JwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/Bean/ThreadPoolConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/anno/State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/config/WebConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/controller/ArticleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/controller/CodeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/controller/FileUploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/controller/ProjectController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/interceptors/LoginInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/mapper/ArticleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/mapper/ProjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/mapper/ProjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/pojo/Article.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/pojo/Category$Add.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/pojo/Category$Update.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/pojo/FindPasswordInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/pojo/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/pojo/Project.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/pojo/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/ArticleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/LoginService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/MailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/ProjectService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/ThreadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/VerificationCodeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/impl/MailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/impl/ProjectServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/impl/ThreadServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/service/impl/VerificationCodeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/utils/AliOSSUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/utils/JwtUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/utils/Md5Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/utils/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/utils/ThreadLocalUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/classes/com/zixin/validation/StateValidation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/surefire-reports/2024-07-12T10-33-47_916.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/surefire-reports/2024-07-12T10-34-46_777.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/surefire-reports/2024-07-30T11-20-32_077.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/surefire-reports/TEST-com.zixin.JwtTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/surefire-reports/com.zixin.JwtTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/test-classes/com/zixin/JwtTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/webSystemProject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/target/webSystemProject-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/api/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/api/project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/api/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/login/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/login/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/login/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/login/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/login/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/login/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/login/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/login2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/assets/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/pinia/token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/pinia/userInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/Carousel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/FindPassword.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/Layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/LoginByPhone.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/article/ArticleCategory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/article/ArticleManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/project/ProjectCategory.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/project/ProjectManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/user/UserAvatar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/user/UserInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/src/views/user/UserResetPassword.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3/personalPage/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSCodeWorkSpace/02指令v-for.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSCodeWorkSpace/03指令v-bind.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSCodeWorkSpace/04指令v-if&amp;v-show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSCodeWorkSpace/05指令v-on.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSCodeWorkSpace/06指令v-model.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSCodeWorkSpace/07axios.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSCodeWorkSpace/08vue案例.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VSCodeWorkSpace/vueTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/api/article.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/api/project.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/api/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/login/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/login/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/login/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/login/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/login/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/login/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/login/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/login2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/assets/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/pinia/token.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/pinia/userInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/utils/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/Carousel.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/FindPassword.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/Layout.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/LoginByPhone.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/article/ArticleCategory.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/article/ArticleManage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/main.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/project/ProjectCategory.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/project/ProjectManage.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/user/UserAvatar.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/user/UserInfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/src/views/user/UserResetPassword.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalPage/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/Bean/ThreadPoolConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/anno/State.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/controller/CodeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/controller/FileUploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/controller/ProjectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/interceptors/LoginInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/mapper/ArticleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/mapper/ProjectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/pojo/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/pojo/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/pojo/FindPasswordInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/pojo/PageBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/pojo/Project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/pojo/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/MailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/ProjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/ThreadService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/VerificationCodeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/impl/ArticleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/impl/LoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/impl/MailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/impl/ProjectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/impl/ThreadServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/service/impl/VerificationCodeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/utils/AliOSSUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/utils/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/utils/Md5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/utils/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/utils/ThreadLocalUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zixin/validation/StateValidation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/zixin/mapper/ArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/zixin/mapper/ProjectMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zixin/JwtTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/Bean/ThreadPoolConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/anno/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/config/WebConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/controller/ArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/controller/CodeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/controller/FileUploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/controller/ProjectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/interceptors/LoginInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/mapper/ArticleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/mapper/ArticleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/mapper/CategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/mapper/ProjectMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/mapper/ProjectMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/pojo/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/pojo/Category$Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/pojo/Category$Update.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/pojo/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/pojo/FindPasswordInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/pojo/PageBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/pojo/Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/pojo/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/ArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/MailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/ProjectService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/ThreadService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/VerificationCodeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/impl/ArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/impl/LoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/impl/MailServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/impl/ProjectServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/impl/ThreadServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/service/impl/VerificationCodeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/utils/AliOSSUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/utils/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/utils/Md5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/utils/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/utils/ThreadLocalUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zixin/validation/StateValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-07-12T10-33-47_916.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-07-12T10-34-46_777.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2024-07-30T11-20-32_077.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.zixin.JwtTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.zixin.JwtTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/zixin/JwtTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webSystemProject-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webSystemProject-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2jxCgeFPy9SvcFi8T5H1YyMV46A" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Biancheng/webSystemProject/SpringBoot",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c69e3ea-c5a9-4eb2-87fe-c1ea2806a277" name="Changes" comment="" />
+      <created>1722319459226</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722319459226</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
