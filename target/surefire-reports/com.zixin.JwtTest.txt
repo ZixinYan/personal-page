@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.zixin.JwtTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.466 s <<< FAILURE! -- in com.zixin.JwtTest
+com.zixin.JwtTest.testParse -- Time elapsed: 0.072 s <<< ERROR!
+com.auth0.jwt.exceptions.TokenExpiredException: The Token has expired on 2024-07-06T17:11:13Z.
+	at com.auth0.jwt.JWTVerifier$BaseVerification.assertValidInstantClaim(JWTVerifier.java:346)
+	at com.auth0.jwt.JWTVerifier$BaseVerification.lambda$addMandatoryClaimChecks$17(JWTVerifier.java:308)
+	at com.auth0.jwt.JWTVerifier$BaseVerification$1.verify(JWTVerifier.java:405)
+	at com.auth0.jwt.JWTVerifier.verifyClaims(JWTVerifier.java:482)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:464)
+	at com.auth0.jwt.JWTVerifier.verify(JWTVerifier.java:445)
+	at com.zixin.JwtTest.testParse(JwtTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
