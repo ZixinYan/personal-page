@@ -148,33 +148,33 @@ onMounted(async () => {
 
 <style lang="scss" scoped>
 .login-page {
+    width: 100vw;
     height: 100vh;
     background-color: rgb(177, 217, 232) ;
         display: flex; // 添加 flex 布局
         backdrop-filter: blur(10px); // 添加磨砂效果
 
     .bg {
-        width: 70%;
-        height: 100%;
+        width: 80vw;
+        height: 100vh;
         background-size: cover;
         background-position: center;
-        border-radius: 0 20px 20px 0;
+        border-radius: 5px 40px 40px 5px;
         position: relative;
         overflow: hidden;
         box-shadow: 0 10px 8px rgba(5, 5, 10, 7); // 添加阴影
     }
 
     .form {
-        flex: 1; // 确保容器占据剩余空间
-        max-width: 400px; // 设置最大宽度
+        width: 20vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: auto; // 居中对齐
         user-select: none;
-        padding:  20px; // 可选：添加一些内边距
+        padding:  50px; // 可选：添加一些内边距
         background: rgba(255, 255, 255, 0.6); // 更改背景色
-        border-radius: 20px; // 添加圆角
+        border-radius: 30px; // 添加圆角
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // 添加阴影
 
         .title {
@@ -184,7 +184,8 @@ onMounted(async () => {
         }
 
         .button {
-            width: 100%;
+            width: 80%;
+            margin: 5px auto;
             
         }
 

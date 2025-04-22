@@ -57,6 +57,12 @@ const updateAvater = async () => {
 </template>
 
 <style lang="scss" scoped>
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none; 
+}
 .avatar-uploader {
     :deep() {
         .avatar {

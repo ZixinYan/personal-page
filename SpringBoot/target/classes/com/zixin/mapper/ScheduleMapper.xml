@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zixin.mapper.ScheduleMapper">
+    <!-- Dynamic SQL -->
+    <select id="list" resultType="com.zixin.pojo.Schedule">
+        select * from schedule
+        <where>
+            <trim prefixOverrides="AND">
+                <if test="deadline != null and deadline != ''">
+                    #{deadline} >= deadline
+                </if>
+                <if test="priority != 0">
+                    and priority >= #{priority}
+                </if>
+                <if test="finish != null and finish != ''">
+                    and finish = #{finish}
+                </if>
+                and create_user = #{id}
+            </trim>
+        </where>
+    </select>
+</mapper>

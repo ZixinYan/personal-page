@@ -58,13 +58,13 @@ const resetpassword = async() => {
         <el-row>
             <el-col :span="12">
                 <el-form :model="passwords" :rules="rules" label-width="100px" size="large">
-                    <el-form-item label="原密码" prop="old_pwd">
+                    <el-form-item label="原密码" prop="old_pwd" class="header">
                         <el-input v-model="passwords.old_pwd"></el-input>
                     </el-form-item>
-                    <el-form-item label="新密码" prop="new_pwd">
+                    <el-form-item label="新密码" prop="new_pwd" class="header">
                         <el-input v-model="passwords.new_pwd"></el-input>
                     </el-form-item>
-                    <el-form-item label="二次输入" prop="re_pwd">
+                    <el-form-item label="二次输入" prop="re_pwd" class="header">
                         <el-input v-model="passwords.re_pwd"></el-input>
                     </el-form-item>
                     <el-form-item>
@@ -75,3 +75,11 @@ const resetpassword = async() => {
         </el-row>
     </el-card>
 </template>
+
+<style lang="scss" scoped>
+.header {
+    display: flex;
+    justify-content: space-between;
+    user-select: none; 
+}
+</style>

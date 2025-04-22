@@ -7,7 +7,9 @@ import {
     Promotion,
     UserFilled,
     User,
+    StarFilled,
     Crop,
+    Tools,
     EditPen,
     SwitchButton,
     CaretBottom
@@ -56,6 +58,11 @@ const handelCommand = (command) => {
                     <span>主 页 面</span>
                 </el-menu-item>
 
+                <el-menu-item index="/schedule/manage">
+                    <el-icon><StarFilled /></el-icon>
+                    <span>日程管理</span>
+                </el-menu-item>
+
                 <el-sub-menu index="1">
                     <template #title>
                         <el-icon>
@@ -76,7 +83,7 @@ const handelCommand = (command) => {
             <el-sub-menu>
             <template #title>
                         <el-icon>
-                            <Management/>
+                            <Tools />
                         </el-icon>
                         <span>项 目</span>
                     </template>                
@@ -137,10 +144,10 @@ const handelCommand = (command) => {
                     </span>
                     <template #dropdown>
                         <el-dropdown-menu>
-                            <el-dropdown-item command="info" :icon="User">基本资料</el-dropdown-item>
-                            <el-dropdown-item command="avatar" :icon="Crop">更换头像</el-dropdown-item>
-                            <el-dropdown-item command="resetpassword" :icon="EditPen">重置密码</el-dropdown-item>
-                            <el-dropdown-item command="logout" :icon="SwitchButton">退出登录</el-dropdown-item>
+                            <el-dropdown-item command="info" :icon="User" class="header no-select">基本资料</el-dropdown-item>
+                            <el-dropdown-item command="avatar" :icon="Crop" class="header no-select">更换头像</el-dropdown-item>
+                            <el-dropdown-item command="resetpassword" :icon="EditPen" class="header no-select">重置密码</el-dropdown-item>
+                            <el-dropdown-item command="logout" :icon="SwitchButton" class="header no-select">退出登录</el-dropdown-item>
                         </el-dropdown-menu>
                     </template>
                 </el-dropdown>
@@ -150,7 +157,7 @@ const handelCommand = (command) => {
             <el-main class="main-content">
                 <router-view></router-view>
             </el-main>
-            <el-footer>个人中心 ©2024 Created by Zixin</el-footer>
+            <el-footer>个人中心 ©2024 Created by zx</el-footer>
         </el-container>
     </el-container>
 </template>
@@ -158,6 +165,7 @@ const handelCommand = (command) => {
 <style lang="scss" scoped>
 .layout-container {
     height: 100vh;
+    user-select: none; 
 
     .el-aside {
         background-color: #232323;
@@ -166,6 +174,7 @@ const handelCommand = (command) => {
             height: 120px;
             background: url('@/assets/logo.png') no-repeat center / 120px auto;
             background-size: contain;
+            user-select: none; 
         }
 
         .el-menu {
@@ -182,6 +191,7 @@ const handelCommand = (command) => {
         .el-dropdown__box {
             display: flex;
             align-items: center;
+            user-select: none;
 
             .el-icon {
                 color: #999;
@@ -212,5 +222,11 @@ const handelCommand = (command) => {
   color: white; /* 根据需要调整文本颜色以确保在背景图片上可见 */
 }
 
+.no-select {
+  user-select: none !important; /* 确保样式具有最高优先级 */
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+}
 
 </style>

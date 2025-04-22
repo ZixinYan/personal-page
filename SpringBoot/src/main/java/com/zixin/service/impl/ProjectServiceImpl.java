@@ -42,7 +42,6 @@ public class ProjectServiceImpl implements ProjectService {
         //填充到PageBean
         pageBean.setTotal(p.getTotal());
         pageBean.setItems(p.getResult());
-
         return pageBean;
     }
 

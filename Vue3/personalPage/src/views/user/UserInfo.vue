@@ -38,13 +38,13 @@ const updateUserInfo = async () => {
         <el-row>
             <el-col :span="12">
                 <el-form :model="userInfo" :rules="rules" label-width="100px" size="large">
-                    <el-form-item label="登录名称">
+                    <el-form-item label="登录名称" class="header">
                         <el-input v-model="userInfo.username" disabled></el-input>
                     </el-form-item>
-                    <el-form-item label="用户昵称" prop="nickname">
+                    <el-form-item label="用户昵称" prop="nickname" class="header">
                         <el-input v-model="userInfo.nickname"></el-input>
                     </el-form-item>
-                    <el-form-item label="用户邮箱" prop="email">
+                    <el-form-item label="用户邮箱" prop="email" class="header">
                         <el-input v-model="userInfo.email"></el-input>
                     </el-form-item>
                     <el-form-item>
@@ -55,3 +55,17 @@ const updateUserInfo = async () => {
         </el-row>
     </el-card>
 </template>
+
+<style lang="scss" scoped>
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none; 
+    .extra {
+        display: flex;
+        align-items: center;
+        user-select: none; 
+    }
+}
+</style>
